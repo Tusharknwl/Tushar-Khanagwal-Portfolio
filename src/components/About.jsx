@@ -43,10 +43,9 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("","", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
       >
-        Hello, My name is Tushar. I'm a fourth-year Electrical Engineering student at Delhi Technological University with a strong command of C/C++ programming and proficiency in Data Structure algorithms. Over the last year, I have been actively engaged in competitive programming on several platforms such as Leetcode, GFG, CodeChef (3-star), and Hackerrank. In my leisure time, I enjoy watching sci-fi movies, anime, and listening to music.
-        You can download my resume on the given below button.
+        I'm a recent B. Tech graduate from Delhi Technological University with a strong background in C/C++ programming and expertise in data structures and algorithms. I'm passionate about software engineering and actively seeking job opportunities in the field. In my free time, I enjoy sci-fi movies, anime, and music. Let's connect and discuss exciting opportunities in tech!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'> 

@@ -1,3 +1,4 @@
+import { a } from "maath/dist/objectSpread2-284232a6.esm";
 import {
     mobile,
     backend,
@@ -8,20 +9,17 @@ import {
     html,
     css,
     reactjs,
-    redux,
+    cpp,
     tailwind,
     nodejs,
-    mongodb,
+    mysql,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    dtu,
+    pwd,
+    luminaai,
+    expensetracker,
+    covidtracker,
     threejs,
   } from "../assets";
   
@@ -31,8 +29,13 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "experience",
+      title: "Experience",
+
+    },
+    {
+      id: "works",
+      title: "Works",
     },
     {
       id: "contact",
@@ -46,15 +49,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Competitive Programmer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Learner",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Freelancer",
       icon: creator,
     },
   ];
@@ -73,16 +76,16 @@ import {
       icon: javascript,
     },
     {
+      name: "C++",
+      icon: cpp,
+    },
+    {
       name: "TypeScript",
       icon: typescript,
     },
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -93,8 +96,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Mysql",
+      icon: mysql,
     },
     {
       name: "Three JS",
@@ -108,158 +111,107 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer1",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Batchlar of Technology",
+      company_name: "Delhi Technological University",
+      icon: dtu,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Aug 2019 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Graduated as a Bachelor of Technology in Electrical Engineering.",
+        "Mentored high school students in Delhi Govt's Desh Ke Mentor program, offering career and academic guidance",
+        "Conducted workshops on Web Development for students of Delhi Technological University."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Auditor | Intern",
+      company_name: "PWD",
+      icon: pwd,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "May 2022 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducted performance testing and analysis of Wi-Fi systems at over 45 locations in Delhi",
+        "Contribution to a project aimed at improving Wi-Fi connectivity and performance for the citizens of Delhi.",
+        "Project of GOVERNMENT OF DELHI executed by PWD Delhi.",
       ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    }
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Lumina.AI",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An open source Saas platform to help users to use many AI tools such as AI assistant , image, code, music and video generation in one platform.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "nextjs",
           color: "green-text-gradient",
+        },
+        {
+          name: "openai",
+          color: "violet-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: luminaai,
+      source_code_link: "https://github.com/Tusharknwl/Lumina_AI",
     },
     {
-      name: "Job IT",
+      name: "Expense Tracker",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A simple expense tracker app that allows users to add and remove transactions and displays the total balance, integrated with speechly for voice commands.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "materialUI",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "contextAPI",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "speechly",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: expensetracker,
+      source_code_link: "https://github.com/Tusharknwl/expense-tracker",
     },
     {
-      name: "Trip Guide",
+      name: "Covid-19 Tracker",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A web based react app that displays the covid-19 cases, recovered and deaths of all the countries and also displays the data in the form of line charts.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "materialUI",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "chartjs",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: covidtracker,
+      source_code_link: "https://github.com/Tusharknwl/covid-19-tracker",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

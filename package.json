@@ -1,7 +1,8 @@
 {
   "name": "react-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "My personal portfolio website",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +10,9 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "keywords": [],
+  "author": "Tushar khanagwal",
+  "license": "MIT",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.74.15",
