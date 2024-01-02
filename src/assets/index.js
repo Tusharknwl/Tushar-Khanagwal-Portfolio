@@ -18,7 +18,6 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
 import dtu from "./company/dtu.png";
 import pwd from "./company/pwd.png";
@@ -47,7 +46,6 @@ export {
   reactjs,
   tailwind,
   typescript,
-  threejs,
   dtu,
   pwd,
   luminaai,

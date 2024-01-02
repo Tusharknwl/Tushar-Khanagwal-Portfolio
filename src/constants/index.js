@@ -20,7 +20,6 @@ import {
     luminaai,
     expensetracker,
     covidtracker,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -98,10 +97,6 @@ import {
     {
       name: "Mysql",
       icon: mysql,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
