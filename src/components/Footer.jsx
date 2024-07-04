@@ -27,11 +27,7 @@ const Footer = () => {
           className={`${styles.normalText} mt-0 grid grid-cols-2 gap-6 lg:w-3/4 lg:grid-cols-2 justify-items-end`}
         >
           <ul className="mb-8 lg:mb-0 space-y-4 list-none">
-            <p
-              className={`${styles.sectionSubText}mb-6 text-lg font-semibold text-gray-700`}
-            >
-              MAIN
-            </p>
+            <p className={`mb-6 text-lg font-semibold text-white`}>MAIN</p>
             {navLinks.map((link) => (
               <li
                 key={link.id}
@@ -42,7 +38,7 @@ const Footer = () => {
             ))}
           </ul>
           <div className="mb-8 lg:mb-0">
-            <p className="mb-6 text-lg font-semibold text-gray-700 ">CONECT</p>
+            <p className="mb-6 text-lg font-semibold text-white ">CONECT</p>
             <ul className="flex flex-col space-y-4">
               <li
                 className={`hover:text-white text-[18px]  cursor-pointer drop-shadow-text-light`}

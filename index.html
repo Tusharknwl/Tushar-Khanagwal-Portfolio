@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/src/assets/logo3.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tushar | Portfolio</title>
+
+    <!--Preload critical resouces-->
+    <link rel="preload" href="/src/constants/index.js" as="script" />
+    <link rel="preload" href="/src/utils/motion.js" as="script" />
+
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Tushar's Portfolio - showcasing projects, skills, and experiences in web development, design, and programming." />
-    <meta name="keywords" content="Tushar, Portfolio, Web Development, Programming, Design, Projects" />
+    <meta
+      name="description"
+      content="Tushar's Portfolio - showcasing projects, skills, and experiences in web development, design, and programming."
+    />
+    <meta
+      name="keywords"
+      content="Tushar, Portfolio, Web Development, Programming, Design, Projects"
+    />
     <meta name="author" content="Tushar" />
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.tusharkhanagwal.me/" />
-    <meta property="og:title" content="Tushar | Portfolio" />
-    <meta property="og:description" content="Tushar's Portfolio - showcasing projects, skills, and experiences in web development, design, and programming." />
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://www.tusharkhanagwal.me/" />
-    <meta property="twitter:title" content="Tushar | Portfolio" />
-    <meta property="twitter:description" content="Tushar's Portfolio - showcasing projects, skills, and experiences in web development, design, and programming." />
-</head>
-<body>
+  </head>
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-</body>
+  </body>
 </html>
