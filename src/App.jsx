@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import {
   About,
@@ -10,17 +10,10 @@ import {
   Works,
   Experience,
   StarsCanvas,
-  PageLoader,
   Footer,
 } from "./components";
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
-
-  // This function will be called by PageLoader when the counter reaches 100
-  const handleLoaded = () => setLoading(false);
-
-  if (loading) return <PageLoader onLoaded={handleLoaded} />;
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-[#121212]">

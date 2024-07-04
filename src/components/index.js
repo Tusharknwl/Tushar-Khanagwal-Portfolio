@@ -7,7 +7,6 @@ import Technologies from "./Technologies";
 import Experience from "./Experience";
 import Works from "./Works";
 import Contact from "./Contact";
-import PageLoader from "./PageLoader";
 import Footer from "./Footer";
 
 export {
@@ -20,6 +19,5 @@ export {
   Contact,
   EarthCanvas,
   StarsCanvas,
-  PageLoader,
   Footer,
 };
