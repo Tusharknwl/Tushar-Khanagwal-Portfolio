@@ -1,11 +1,14 @@
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+  <img src="src/assets/logo.svg" width="200px" alt="logo>
 </p>
 <p align="center">
     <h1 align="center">TUSHAR-KHANAGWAL-PORTFOLIO</h1>
 </p>
 <p align="center">
     <em>Welcome to my portfolio website repository  🚀</em>
+	<a href="https://tusharkhanagwal.me">Live</a>
+    ·
+    <a href="https://github.com/Tusharknwl/Tushar-Khanagwal-Portfolio/issues">Report Bug</a>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/last-commit/Tusharknwl/Tushar-Khanagwal-Portfolio?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
@@ -34,15 +37,11 @@
 > - [ Overview](#-overview)
 > - [ Features](#-features)
 > - [ Repository Structure](#-repository-structure)
-> - [ Modules](#-modules)
 > - [ Getting Started](#-getting-started)
 >   - [ Installation](#-installation)
 >   - [ Running Tushar-Khanagwal-Portfolio](#-running-Tushar-Khanagwal-Portfolio)
->   - [ Tests](#-tests)
-> - [ Project Roadmap](#-project-roadmap)
 > - [ Contributing](#-contributing)
 > - [ License](#-license)
-> - [ Acknowledgments](#-acknowledgments)
 
 ---
 
